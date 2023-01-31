@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Your Own T-Shirt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <!--- event listener for the search button and loader -->
+    <script>
+        <!-- Display loader when search is clicked -->
+        
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="dalleMage-wrapper">
+            <div class="dalleMage-search">
+                <h2 class="title">Generate Printed T-Shirt</h2>
+              <!--  <blockquote>Real food doesn't have ingredients, real food is ingredients.<br>
+                    <cite>- Jamie Oliver</cite>-->
+                </blockquote>
+
+                <div class="dalleMage-search-box">
+                    <input type="text" class="search-control" placeholder="Enter Design Prompt" id="search-input">
+                    <button type="submit" class="search-btn btn" id="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="loader-container">
+                <div class="loader"></div>
+            </div>
+            <br>
+            <div class="dalleMage-result">
+
+                <div id="dalleMage">
+                    <!-- dalleMage item-->
+                   <!-- <div class="dalleMage-item">
+                        <div class="dalleMage-img">
+                            <img src="food.jpg" alt="food">
+                        </div>
+                        <div class="dalleMage-name">
+                            <h3>Potato Fries</h3>
+                            <a href="#" class="dalleMage-btn">Get dalleMage</a>
+                        </div>
+                    </div>-->
+                     <!--end of dalleMage item-->
+                </div>
+                <!-- loader for the images -->
+            </div>
+
+            <div class="dalleMage-details">
+                <!--dalleMage close btn-->
+                <button type = "button" class = "btn dalleMage-close-btn" id = "dalleMage-close-btn">
+                    <i class = "fas fa-times"></i>
+                  </button>
+          
+
+                <!--dalleMage content-->
+                <div class="dalleMage-details-content">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
