@@ -1,4 +1,5 @@
 # Generate Images Using Dall-E 2 API
+![image](https://user-images.githubusercontent.com/13138647/223723662-3d326fe2-180b-477c-af78-3fcc2bdbd6fc.png)
 
 This repository contains a simple script to generate images using the [Dall-E 2 API](https://openai.com/blog/dall-e/).
 
