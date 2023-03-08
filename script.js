@@ -15,7 +15,7 @@ function getTees(){
     ('search-input').value;
     var myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
-    myHeaders.append("Authorization", "Bearer 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");
+    myHeaders.append("Authorization", "Bearer YOUR_KEYS_HERE");
 
     var raw = JSON.stringify({
         "prompt": searchInputTxt,
@@ -34,7 +34,7 @@ function getTees(){
         .then(response => response.json())
         .then(data => {
             console.log(data)
-            let html = "<h2 class=\"title\">Your Design:</h2>";
+            let html = "";
             if(data){
              //   let url = data['data'][0]['url']
                 console.log(data)
@@ -48,7 +48,7 @@ function getTees(){
                     </div>
                     <div class="dalleMage-name">
                         <h3>${searchInputTxt}</h3>
-                        <a href="#" class="dalleMage-btn">Order T-Shirt</a>
+                        <a href="${link}" class="dalleMage-btn">Download</a>
                     </div>
                 </div>`
             });
